@@ -1,0 +1,20 @@
+{
+  "short_name": "Book Finder",
+  "name": "Book Finder - Discover Your Next Great Read",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "logo192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#066F96",
+  "background_color": "#ffffff"
+}
