@@ -5,14 +5,18 @@ A modern React application that helps users discover books using the Open Librar
 ## ✨ Features
 
 - **Multiple Search Types**: Search by title, author, or subject
-- **Beautiful UI**: Clean, modern design with Tailwind CSS
+- **Beautiful UI**: Clean, modern design with Tailwind CSS and dark theme
 - **Responsive Design**: Works perfectly on desktop and mobile devices
+- **Book Discovery**: Featured sections for Recent Books, New Releases, Top 10 Bestsellers, and Popular Fiction
+- **Professional Pages**: About, Contact, Privacy Policy, Terms of Service, and Cookie Policy
 - **Book Details**: Expandable book cards with comprehensive information
 - **Error Handling**: Graceful error handling with user-friendly messages
 - **Loading States**: Smooth loading indicators for better UX
 - **Quick Search**: Pre-defined search suggestions for popular queries
 - **Book Covers**: Displays book covers when available
 - **External Links**: Direct links to Open Library for more details
+- **Professional Navigation**: Clean navbar with search functionality
+- **Legal Compliance**: Complete privacy and terms documentation
 
 ## 🚀 Getting Started
 
@@ -79,11 +83,21 @@ The app uses the Open Library API with the following endpoints:
 ```
 src/
 ├── components/
+│   ├── About.js             # About page component
+│   ├── AppRouter.js         # Client-side routing
 │   ├── BookCard.js          # Individual book display component
 │   ├── BookList.js          # Grid of book cards
+│   ├── BookSection.js       # Horizontal scrolling book sections
+│   ├── Contact.js           # Contact page component
+│   ├── CookiePolicy.js      # Cookie policy page
 │   ├── ErrorMessage.js      # Error display component
+│   ├── Footer.js            # Footer component
+│   ├── Home.js              # Home page component
 │   ├── LoadingSpinner.js    # Loading indicator
-│   └── SearchBar.js         # Search input and controls
+│   ├── Navbar.js            # Navigation bar component
+│   ├── PrivacyPolicy.js     # Privacy policy page
+│   ├── SearchBar.js         # Search input and controls
+│   └── TermsOfService.js    # Terms of service page
 ├── services/
 │   └── bookService.js       # API service functions
 ├── App.js                   # Main application component
